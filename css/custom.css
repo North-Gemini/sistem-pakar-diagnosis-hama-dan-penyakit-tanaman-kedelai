@@ -1,0 +1,181 @@
+  /* halaman visitor */
+.row.content .par{
+  color: white;
+  padding-left: 20px;
+  padding-bottom: 25px;
+  font-family: Arial;
+  letter-spacing: 1.2px;
+  line-height: 25x;
+}
+.row.content h1{
+  font-family: 'Times New Roman';
+  color: white;
+  font-size: 40px;
+  padding-left: 20px;
+  margin-top: 20px;
+  letter-spacing: 2px;
+}
+.row.content .cn{
+  width: 160px;
+  height: 40px;
+  border: none;
+  margin-bottom: 10px;
+  margin-left: 20px;
+  font-size: 18px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: .4s ease;
+}
+.row.content .cn a{
+  text-decoration: none;
+  color: #000;
+  transition: .3s ease;
+}
+.cn:hover{
+  background-color: gray;
+}
+.row.content .spann{
+  color: white;
+  font-size: 45px;
+  font-weight: bold;
+}
+.visit{
+  background-color: white;
+  text-align: center;
+  border-radius: 10px;
+  padding: auto;
+  margin-left: 12px;
+}
+hr{
+  height: 3px;
+  border: 0;
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+}
+
+  /* style btn */
+.btn.btn-primary{
+  font-size: 12px;
+  font-weight: bold;
+}
+.btn.btn-default{
+  font-size: 12px;
+  margin-right: 5px;
+  font-weight: bold;
+}
+
+  /* style panel */
+.panel.panel-info{
+  font-size: 14px;
+}
+.panel-heading{
+  font-weight: bold;
+}
+
+.image{
+  width: 40px;
+  height: 40px;
+  float: left;
+  margin-top: -8px;
+  margin-right: 10px;
+  margin-left: 12px;
+}
+
+  /* style judul */
+.judul{
+  background: rgb(32, 32, 32);
+  color: white;
+  font-size: medium;
+  font-weight: bold;
+  height: 40px;
+  padding-top: 5px;
+}
+
+/* style navbar */
+.logo{
+  font-size: 25px;
+  font-family: Arial;
+  margin-right: 80px;
+}
+.navbar {
+  background: rgb(32, 32, 32);
+  border-bottom: 0;
+  border-radius: 10px;
+  margin-bottom: 0;
+  border-radius: 0;
+  height: auto;
+}
+.navbar ul li a:hover {
+  color: black;
+}
+.collapse ul li{
+  font-weight: bold;
+  font-size: 16px;
+}
+
+  /* style sidenav */
+.sidenav {
+  padding-top: auto;
+}
+.row.content {
+  background-image: url(../img/bg.jpg);
+  background-size: cover;
+  /* background: darkslategrey;
+  height: 100%;
+  position: relative; */
+  position: relative;
+  padding-top: 35px;
+  padding-bottom: 55px;
+}
+@media screen and (max-width: 767px) {
+  .sidenav {
+    padding: auto;
+    height: auto;
+  }
+  .row.content {
+    height: 100%;
+  }
+}
+
+  /* login */
+.login{
+  width: 350px;
+  height: 380px;
+  position: relative;
+  top: -20px;
+  left: 480px;
+  border-radius: 10px;
+  padding: 25px;
+}
+
+  /* style footer */
+footer {
+  background-color: rgb(32, 32, 32);
+  color: white;
+  padding: 5px;
+}
+.hFooter{
+  font-weight: bold;
+  font-size: 14px;
+  padding-top: 5px;
+}
+.bFooter{
+  font-size: 14px;
+  padding: 0;
+}
+.tFooter{
+  font-size: 14px;
+  font-weight: bold;
+}
+.mediaSosial ion-icon{
+  color: #fff;
+  font-size: 20px;
+  padding: 5px;
+  margin: 5px;
+  transition: 0.3s ease;
+}
+.fikri{
+  background: black;
+  color: white;
+  font-size: 10px;
+  padding: 8px;
+}
